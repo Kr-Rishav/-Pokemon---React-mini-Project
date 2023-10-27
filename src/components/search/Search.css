@@ -1,15 +1,18 @@
-
-.search-wrapper{
-             /* border: 2px solid red;  */
-             margin: 0 auto;
-             padding: 20px;
-          width: 500px;    
-
+.search-wrapper {
+  /* border: 2px solid red; */
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 20px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#pokemen-name-search{
-          width: 100%;   
-          padding: 10px; 
+#pokemen-name-search {
+  width: 100%;
+  padding: 10px;
+  border: 0.1px solid white;
+  /* border: non; */
+  border-radius: 5px;
 }
-
-
